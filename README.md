@@ -6,7 +6,7 @@ This project provides a comprehensive analysis of call center operations between
 ---
 
 ## 📊 Dashboard Preview
-![Dashboard](screenshots/call_dashboard.png)
+![Dashboard](https://github.com/gdogara-glitch/Call_center_performance_analysis/blob/main/screenshots/Call_centre%20page%201%20Screenshot.png?raw=true)
 
 ---
 
