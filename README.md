@@ -1,184 +1,167 @@
-# 📞 Call Centre Performance & Customer Insights
+# 📞 Call Center Performance Analysis
 
-## 📌 Overview
+## 📌 Project Overview
 
-This project analyzes call centre operations from January to March 2021 using Power BI and Excel.
+This project analyzes **5,000 call center interactions recorded between January and March 2021** to evaluate operational performance, customer experience, and agent effectiveness.
 
-The analysis focuses on call volume, answering efficiency, resolution performance, agent performance, response time, customer satisfaction, and the most common customer call topics.
+Using **Power BI and Excel**, the analysis focuses on key call-center KPIs including:
 
-The objective is to identify operational gaps and provide actionable insights that can support better service delivery and customer experience.
+- Call volume and trends
+- Answered vs. unanswered calls
+- Resolution rate
+- Average speed of answer
+- Customer satisfaction
+- Call topics
+- Agent performance
 
----
-
-## 📊 Dashboard Preview
-
-![Call Centre Performance Dashboard](https://github.com/gdogara-glitch/Call_center_performance_analysis/blob/main/screenshots/Call_centre%20page%201%20Screenshot.png?raw=true)
+The goal is to identify operational gaps and provide **data-driven recommendations** that can improve response efficiency, issue resolution, and customer satisfaction.
 
 ---
 
 ## 🎯 Business Problem
 
-The call centre needs to understand how effectively customer calls are being handled and where operational improvements are required.
+A call center needs to balance **speed, resolution quality, and customer satisfaction**.
 
-This analysis evaluates:
+This analysis addresses several key business questions:
 
-- Call answering performance
-- Resolution performance
-- Average speed of answer
-- Customer satisfaction
-- Agent performance
-- Call volume trends
-- Customer enquiry topics
-
-The goal is to identify areas where management can improve operational efficiency and customer experience.
+1. How many calls are being handled successfully?
+2. What percentage of calls remain unanswered?
+3. How effectively are customer issues being resolved?
+4. Is the average response time meeting the target?
+5. Which topics generate the highest call volumes?
+6. How consistent is agent performance?
+7. Where are the biggest opportunities for operational improvement?
 
 ---
 
-## 📊 Key Metrics
+## 📊 Key Performance Indicators
 
 | KPI | Result |
 |---|---:|
-| Total Calls | 5,000 |
-| Answered Calls | 4,054 (81%) |
-| Unanswered Calls | 946 (19%) |
-| Resolved Calls | 3,646 |
-| Resolution Rate* | 73% |
-| Unresolved Among Answered Calls* | 1354 (27%) |
-| Customer Satisfaction | 69% |
-| Average Speed of Answer | 68 seconds |
-| Target Speed of Answer | 60 seconds |
-| Total Agents | 8 |
+| **Total Calls** | 5,000 |
+| **Answered Calls** | 4,054 (81%) |
+| **Unanswered Calls** | 946 (19%) |
+| **Resolved Calls** | 3,646 (73%) |
+| **Unresolved Calls** | 1,354 (27%) |
+| **Customer Satisfaction** | 69% |
+| **Average Speed of Answer** | 68 seconds |
+| **Response Time Target** | 60 seconds |
+| **Total Agents** | 8 |
+
+### 📈 KPI Highlights
+
+- **81% of calls were answered**, leaving 19% unanswered.
+- **73% of calls were resolved**, while 27% remained unresolved.
+- Customer satisfaction was **69%**, indicating room to improve the overall customer experience.
+- Average speed of answer was **68 seconds**, which is **8 seconds above the 60-second target**.
+
+---
+
+## 📊 Dashboard
+
+The Power BI dashboard provides an interactive view of call-center performance across multiple dimensions, allowing users to monitor operational KPIs and identify areas requiring attention.
+
+### Dashboard includes:
+
+- Call volume trends
+- Answered and unanswered calls
+- Resolution performance
+- Customer satisfaction
+- Average speed of answer
+- Call topics
+- Agent-level performance
 
 ---
 
 ## 🔍 Key Insights
 
-### 📈 Call Volume Trend
+### 1. Response Efficiency
 
-- Daily call volume fluctuates throughout the period.
-- Several peaks in call activity indicate periods of increased demand.
-- Understanding these patterns can help management plan staffing and resources more effectively.
+The average speed of answer was **68 seconds**, exceeding the 60-second target by 8 seconds.
 
-### 📞 Answering Performance
+This indicates an opportunity to improve call handling efficiency and reduce customer waiting time.
 
-- 4,054 out of 5,000 calls were answered, resulting in an **81% answering rate**.
-- 946 calls were unanswered.
-- The unanswered volume indicates an opportunity to improve call handling capacity and reduce missed customer interactions.
+### 2. Unanswered Calls
 
-### 📉 Resolution Performance
+Out of 5,000 calls, **946 were unanswered**, representing 19% of total call volume.
 
-- 3,646 answered calls were successfully resolved.
-- This represents a **73% resolution rate among answered calls**.
-- The remaining 1354 answered calls were unresolved, highlighting opportunities for improved issue resolution and follow-up processes.
+A consistently high level of unanswered calls may indicate opportunities to optimize staffing and scheduling during periods of high demand.
 
-### 😊 Customer Satisfaction
+### 3. Resolution Performance
 
-- Overall customer satisfaction stands at **69%**.
-- This indicates that while a significant proportion of customers had a satisfactory experience, there is room to improve service quality and customer outcomes.
+The call center resolved **3,646 calls (73%)**, while **1,354 calls (27%) remained unresolved**.
 
-### ⏱️ Response Time
+Improving first-contact resolution could reduce repeat contacts and improve customer satisfaction.
 
-- The average speed of answer is **68 seconds**.
-- The target is **60 seconds**.
-- The 8-second gap indicates that response time is an area requiring attention.
+### 4. Customer Satisfaction
 
-### 🧩 Topic Analysis
+Customer satisfaction was **69%**.
 
-The most common customer enquiry topics include:
+While the majority of customers appear to have had a satisfactory experience, the result suggests that improvements in response time and resolution effectiveness could positively affect customer perception.
 
-- Streaming
-- Technical Support
-- Payment Issues
-- Administrative Support
-- Contract-related enquiries
+### 5. Call Topics
 
-Each major topic accounts for approximately 19–20% of the recorded enquiries, indicating a relatively balanced distribution across the main call categories.
+The largest call drivers were:
 
-### 👩‍💼 Agent Performance
+- **Streaming**
+- **Technical Support**
+- **Payment Issues**
 
-- Agent performance is relatively consistent across the team.
-- Differences in resolution and satisfaction performance provide opportunities to identify best practices and areas for targeted coaching.
-- Monitoring agent-level KPIs can help management maintain consistent service standards.
+Each accounted for approximately 20% of call volume, highlighting recurring areas where better self-service resources, troubleshooting guides, or process improvements could reduce call demand.
 
----
+### 6. Agent Performance
 
-## 🚧 Key Challenges Identified
-
-The analysis highlights several operational challenges:
-
-- 19% of calls were unanswered
-- Average speed of answer is above the 60-second target
-- Customer satisfaction is 69%
-- Some answered calls remain unresolved
-- Recurring customer issues require continued attention
+Performance across the eight agents was relatively consistent, with differences that could be explored further through individual productivity, resolution, and satisfaction metrics.
 
 ---
 
 ## 💡 Recommendations
 
-Based on the analysis, the following actions are recommended:
+Based on the analysis, the following actions could improve call-center performance:
 
-1. **Improve staffing and scheduling**
-   - Align staffing levels with periods of higher call volume to reduce unanswered calls.
+### 👥 Optimize Staffing
 
-2. **Reduce response time**
-   - Investigate the causes of the 68-second average response time and implement measures to move performance toward the 60-second target.
+Review call-volume patterns and schedule additional agents during peak periods to reduce unanswered calls and waiting time.
 
-3. **Improve issue resolution**
-   - Review unresolved cases to identify recurring causes and opportunities for better first-contact resolution.
+### ⏱ Reduce Response Time
 
-4. **Target recurring customer issues**
-   - Develop knowledge-base resources and agent training around technical, streaming, and payment-related enquiries.
+Investigate the causes of the 68-second average response time and introduce measures to bring performance closer to the 60-second target.
 
-5. **Strengthen agent performance monitoring**
-   - Use KPI monitoring to identify high-performing practices and areas requiring coaching.
+### 🎓 Targeted Agent Training
 
-6. **Improve customer experience**
-   - Monitor satisfaction alongside response and resolution metrics to understand how operational performance affects customers.
+Use agent-level performance data to identify specific training opportunities, particularly around resolution efficiency and customer handling.
 
----
+### 🛠 Address Recurring Issues
 
-## 🛠️ Tools Used
+Develop better self-service resources and troubleshooting processes for high-volume topics such as technical support, streaming, and payment issues.
 
-- **Microsoft Power BI** – Dashboard development, visualization and performance analysis
-- **Microsoft Excel** – Data preparation and analysis
+### 📈 Monitor KPIs Continuously
+
+Use the Power BI dashboard as an ongoing performance-monitoring tool rather than relying only on periodic reporting.
 
 ---
 
-## 📈 Skills Demonstrated
+## 🛠 Tools & Technologies
 
-- Data analysis
-- KPI development
-- Business performance analysis
-- Data visualization
-- Dashboard design
-- Trend analysis
-- Agent performance analysis
-- Customer experience analysis
-- Business insights and recommendations
+- **Microsoft Power BI** — Data modeling, DAX, KPI analysis, and dashboard development
+- **Microsoft Excel** — Data preparation and analysis
+- **DAX** — KPI and performance calculations
+- **Data Visualization** — Interactive charts and performance dashboards
 
 ---
 
-## 🏁 Conclusion
+## 📁 Repository Structure
 
-The analysis shows that the call centre handles a substantial volume of customer interactions, with an **81% answering rate** and a **73% resolution rate among answered calls**.
-
-However, opportunities remain to improve the customer experience by reducing unanswered calls, bringing average response time closer to the **60-second target**, improving unresolved cases, and increasing customer satisfaction.
-
-The dashboard provides management with an interactive view of operational performance and can support data-driven decisions around staffing, agent performance, response efficiency, and customer service improvement.
-
----
-
-## 📁 Files Included
-
-- `Call_Center_Dashboard.pbix` – Power BI dashboard
-- `Call_Center_Dashboard.pdf` – Dashboard export
-- Dataset – Where applicable
-
----
-
-## 👤 Project Type
-
-**Data Analytics | Business Intelligence | Power BI Dashboard**
-
-**Tools:** Power BI | Excel
+```text
+Call_center_performance_analysis/
+│
+├── pbix/
+│   └── Call_Center_Dashboard.pbix
+│
+├── pdf/
+│   └── Call_Center_Dashboard.pdf
+│
+├── screenshots/
+│   └── Dashboard screenshots
+│
+└── README.md
